@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   background-color: hsl(225, 100%, 94%);
+  height: 100vh;
 }
 
 code {
@@ -21,12 +22,20 @@ code {
 #root {
   box-sizing: border-box;
   overflow: hidden;
+  display: grid;
+  place-content: center;
+  height: 100vh;
 }
 h1 {
   font-weight: 900;
 }
+h2 {
+  font-size: 1em;
+  font-weight: 800;
+}
 p {
   color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
 }
 button {
   font-family: inherit;
