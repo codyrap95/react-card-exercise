@@ -1,4 +1,5 @@
 import headerImage from "./images/illustration-hero.svg";
+import musicNote from "./images/icon-music.svg";
 import "./App.css";
 
 function App() {
@@ -11,8 +12,11 @@ function App() {
         device anywhere you like.
       </p>
       <div className="subcard">
-        <img src="" alt="" />
-        <div className="subcard__middle"></div>
+        <img src={musicNote} alt="" />
+        <span className="subcard__middle">
+          <h2>Annual Plan</h2>
+          <p>$59.99/year</p>
+        </span>
         <a href="/">Change</a>
       </div>
       <button className="btn btn--highlighted">Proceed to payment</button>
